@@ -1,3 +1,4 @@
+import Spline from "@splinetool/react-spline";
 import "boxicons/css/boxicons.min.css";
 
 const Hero = () => {
@@ -42,6 +43,7 @@ const Hero = () => {
           </a>
         </div>
       </div>
+      <Spline className="bg-transparent" scene="/robot_follow_cursor_for_landing_page_mc.spline" />
     </main>
   );
 };
