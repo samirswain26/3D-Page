@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <header className="flex justify-between items-center py-4 px-4 lg:px-20">
-      <h1 className="text-xl md:text-4xl lg:text-5xl font-light m-0">MAIL</h1>
+      <h1 className="text-xl md:text-4xl lg:text-5xl font-light m-0">AGENT</h1>
 
       <nav className="hidden md:flex items-center gap-12 ">
         <a

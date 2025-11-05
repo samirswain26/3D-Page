@@ -13,16 +13,15 @@ const Hero = () => {
         </div>
 
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold tracking-wider my-8">
-          EMAIL FOR
-          <br />
-          DEVELOPERS
+          Unlock the Power of Agentic AI <br />
         </h1>
 
         <p className="text-base sm-text-lg tracking-wider text-gray-400 w-[25rem] lg:max-w-[30rem]">
-          Best way to reach humans instead of spam folders.
+          Build intelligent, autonomous agents that think, act, and collaborate
+          — powered by next-gen AI automation.
         </p>
 
-        <div className="flex gap-4 mt-12" >
+        <div className="flex gap-4 mt-12">
           <a
             className="border border-[#2a2a2a] py-2 sm:py-3 px-4 sm:px-5 rounded-full
                     sm:text-lg text-sm font-semibold tracking-wider transition-allduration-300 hover:bg-[#1a1a1a]
@@ -43,7 +42,10 @@ const Hero = () => {
           </a>
         </div>
       </div>
-      <Spline className="bg-transparent" scene="/robot_follow_cursor_for_landing_page_mc.spline" />
+      <Spline
+        className="bg-transparent"
+        scene="/robot_follow_cursor_for_landing_page_mc.spline"
+      />
     </main>
   );
 };
